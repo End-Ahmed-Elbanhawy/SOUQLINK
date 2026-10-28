@@ -77,9 +77,9 @@ export default function Dashboard() {
                                 <SidebarItem className="uppercase" as={Link} to="/myinventory" active={activeLocation.pathname === '/myinventory'}>
                                     <FaArchive className="inline-block me-2" />My Inventory
                                 </SidebarItem>
-                                <SidebarItem className="uppercase" as={Link} to="/myinventorynew" active={activeLocation.pathname === '/myinventorynew'}>
+                                {/* <SidebarItem className="uppercase" as={Link} to="/myinventorynew" active={activeLocation.pathname === '/myinventorynew'}>
                                     <FaArchive className="inline-block me-2" />My Inventory New
-                                </SidebarItem>
+                                </SidebarItem> */}
                                 <SidebarItem className="uppercase" as={Link} to="/activebids" active={activeLocation.pathname === '/activebids'}>
                                     <FaGavel className="inline-block me-2 -scale-x-100" />Active Bids
                                 </SidebarItem>
